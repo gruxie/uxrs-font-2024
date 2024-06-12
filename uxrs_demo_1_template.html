@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Demonstration</title>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 70%;
+            background-color: #ffff; 
+            padding: 20px;
+        }
+        .block {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #ffff;
+        }
+        .split {
+            display: flex;
+        }
+        .split > div {
+            flex: 1;
+            padding: 10px;
+            background-color: #ffff;
+            margin-right: 10px;
+        }
+        .split > div:last-child {
+            margin-right: 0;
+        }
+        .font1 {
+            font-family: 'Inter', Times, serif;
+        }
+        .font2 {
+            font-family: 'Roboto', Courier, monospace;
+        }
+        .font3 {
+            font-family: 'Inter', serif;
+        }
+
+
+    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="container">
+        <p class="block font1" style="font-size: 2em;">UX Research & Strategy - Font 1</p>
+        <p class="block font2" style="font-size: 2em;">UX Research & Strategy - Font 2</p>
+        <p class="block font3" style="font-size: 2em;">UX Research & Strategy - Font 3</p>
+        
+        <div class="block">
+            <img src="./uxrs_title.png" alt="Image" class="center-image">
+        </div>
+
+        
+        <div class="block font1">
+            <h1>Font 1: Inter</h1>
+            <p>UX Research and Strategy is a registered 501c3 organization, and was founded by three former co-workers who saw a gap in a local UX market. Based on community feedback, they formed a group that is dedicated to teaching topics in UX research and strategy. </p>
+        </div>
+        <div class="block font2">
+            <h1>Font 2: Roboto</h1>
+            <p>UX Research and Strategy is a registered 501c3 organization, and was founded by three former co-workers who saw a gap in a local UX market. Based on community feedback, they formed a group that is dedicated to teaching topics in UX research and strategy. </p>
+        </div>
+        <div class="block font3">
+            <h1>Font 3: Inter</h1>
+            <p>UX Research and Strategy is a registered 501c3 organization, and was founded by three former co-workers who saw a gap in a local UX market. Based on community feedback, they formed a group that is dedicated to teaching topics in UX research and strategy.</p>
+        </div>
+
+
+        <div class="block split">
+            <div class="font1">
+                <h1>More of font 1 - Inter </h1>
+                <p>UX Research and Strategy is a registered 501c3 organization, and was founded by three former co-workers who saw a gap in a local UX market. Based on community feedback, they formed a group that is dedicated to teaching topics in UX research and strategy.</p>
+            </div>
+            <div class="font2">
+                <h1>More of font 2 - Roboto</h1>
+                <p>UX Research and Strategy is a registered 501c3 organization, and was founded by three former co-workers who saw a gap in a local UX market. Based on community feedback, they formed a group that is dedicated to teaching topics in UX research and strategy.</p>
+            </div>
+            <div class="font3">
+                <h1>More of font 1 - Inter </h1>
+                <p>UX Research and Strategy is a registered 501c3 organization, and was founded by three former co-workers who saw a gap in a local UX market. Based on community feedback, they formed a group that is dedicated to teaching topics in UX research and strategy.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
+
+
+
